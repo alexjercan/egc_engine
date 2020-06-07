@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{9494f307-c1ec-49c3-b3a2-e8bd3267d84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Window">
+      <UniqueIdentifier>{a3d208ce-c616-4e32-9d2d-f8e8825c59cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{1d2eb2cb-c2cc-41b4-af6d-395b05f55a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{473dfab2-3e7d-432d-8e69-65aa99f48c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GPU">
+      <UniqueIdentifier>{271e5bd2-7cb3-40b7-b2e5-5e343c58f910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Managers">
+      <UniqueIdentifier>{2940a1fd-9fef-46a7-93fb-a8241118d00a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema3">
+      <UniqueIdentifier>{9beeee01-1f99-491c-97da-a71016f393a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema3\Components">
+      <UniqueIdentifier>{3f8ad546-faef-4842-950f-3aab38398088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema3\GameScene">
+      <UniqueIdentifier>{251fc162-0d75-4c22-b0ac-a1868c176257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema3\Shaders">
+      <UniqueIdentifier>{08ce7dc3-7416-499d-b9e5-67d5a0a7b568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema3\Input">
+      <UniqueIdentifier>{316a2159-ad8d-4221-b450-974032e021c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Core\Engine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\World.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\include\gl.cpp">
+      <Filter>include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Window\WindowObject.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\Shader.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Main.cpp" />
+    <ClCompile Include="..\Source\Core\Window\WindowCallbacks.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\Mesh.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\Texture2D.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Managers\TextureManager.cpp">
+      <Filter>Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Component\CameraInput.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Window\InputController.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Component\SimpleScene.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\GPUBuffers.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Component\SceneInput.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Tema3\Components\CameraComponent.cpp">
+      <Filter>Tema3\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Tema3\Components\Collider.cpp">
+      <Filter>Tema3\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Tema3\Components\GameObject.cpp">
+      <Filter>Tema3\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Tema3\Components\MeshRenderer.cpp">
+      <Filter>Tema3\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Tema3\Components\ParticleController.cpp">
+      <Filter>Tema3\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Tema3\Components\ParticleSystem.cpp">
+      <Filter>Tema3\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Tema3\Components\Transform.cpp">
+      <Filter>Tema3\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Tema3\GameScene\Tema3.cpp">
+      <Filter>Tema3\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Tema3\Input\Input.cpp">
+      <Filter>Tema3\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Tema3\Components\SpotLight.cpp">
+      <Filter>Tema3\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Tema3\Components\Terrain.cpp">
+      <Filter>Tema3\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Tema3\Components\SliderUI.cpp">
+      <Filter>Tema3\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Tema3\Components\PlayerController.cpp">
+      <Filter>Tema3\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Tema3\Components\TurnBasedController.cpp">
+      <Filter>Tema3\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Tema3\Components\ProjectileController.cpp">
+      <Filter>Tema3\Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Core\World.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Engine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\gl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\glm.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\math.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\utils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Window\WindowObject.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\Shader.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Window\WindowCallbacks.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\Mesh.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\Texture2D.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Managers\ResourcePath.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Managers\TextureManager.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Component\CameraInput.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Window\InputController.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Component\SimpleScene.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\GPUBuffers.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Component\SceneInput.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Tema3\Components\CameraComponent.h">
+      <Filter>Tema3\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Tema3\Components\Collider.h">
+      <Filter>Tema3\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Tema3\Components\Component.h">
+      <Filter>Tema3\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Tema3\Components\GameObject.h">
+      <Filter>Tema3\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Tema3\Components\MeshRenderer.h">
+      <Filter>Tema3\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Tema3\Components\ParticleController.h">
+      <Filter>Tema3\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Tema3\Components\ParticleSystem.h">
+      <Filter>Tema3\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Tema3\Components\Transform.h">
+      <Filter>Tema3\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Tema3\Models3D.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Tema3\GameScene\Tema3.h">
+      <Filter>Tema3\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Tema3\Models2D.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Tema3\Components\ComponentsList.h">
+      <Filter>Tema3\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Tema3\Input\Input.h">
+      <Filter>Tema3\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Tema3\Components\SpotLight.h">
+      <Filter>Tema3\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Tema3\Components\Terrain.h">
+      <Filter>Tema3\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Tema3\Components\SliderUI.h">
+      <Filter>Tema3\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Tema3\Components\PlayerController.h">
+      <Filter>Tema3\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Tema3\Components\TurnBasedController.h">
+      <Filter>Tema3\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Tema3\Components\ProjectileController.h">
+      <Filter>Tema3\Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="..\Source\Tema3\Shaders\FragmentShader.glsl">
+      <Filter>Tema3\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Tema3\Shaders\VertexShader.glsl">
+      <Filter>Tema3\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Tema3\Shaders\WaterVertexShader.glsl">
+      <Filter>Tema3\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Tema3\Shaders\TerrainVertexShader.glsl">
+      <Filter>Tema3\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Tema3\Shaders\TerrainFragmentShader.glsl">
+      <Filter>Tema3\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Tema3\Shaders\VertexShaderT.glsl">
+      <Filter>Tema3\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Tema3\Shaders\FragmentShaderT.glsl">
+      <Filter>Tema3\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
